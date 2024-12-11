@@ -9,8 +9,9 @@ long long int calc_fat(int);
 
 int main()
 {
-    int numero = 13;
+    int numero = 10;
     long long int num_fat = calc_fat(numero);
+    printf("\nFiz esta alteracao neste arquivo: ");
     printf("\nO fatorial de %d eh: %lld", numero , num_fat);
     return 0;
 }
