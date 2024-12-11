@@ -12,6 +12,7 @@ int main()
     long long int num_fat;
     printf("\nInforme um numero inteiro: ");
     scanf("%d",&numero);    
+    printf("\nMudanca para ser testada");
     num_fat = calc_fat(numero);
     printf("\nO fatorial de %d eh: %lld", numero , num_fat);
     return 0;
