@@ -9,7 +9,7 @@ int calc_fat(int);
 
 int main()
 {
-    int numero = 6;
+    int numero = 5;
     int num_fat = calc_fat(numero);
     printf("\nMudanca no Git");
     printf("\nO fatorial de %d eh: %d", numero , num_fat);
